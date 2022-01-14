@@ -1,42 +1,120 @@
-/* CSS reset */
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
-    margin:0;
-    padding:0;
+
+
+#product-overview {
+    background: url("Prueba_Academind.jpg");
+    width: 100%;
+    height: 528px;
+    padding: 10px;
 }
-html,body {
-    margin:0;
-    padding:0;
+
+.section-title {
+    color: thistle;
+    text-align: center;
 }
-table {
-    border-collapse:collapse;
-    border-spacing:0;
+
+.section-text {
+    text-align: center;
 }
-fieldset,img { 
-    border:0;
+
+#product-overview h1 {
+    color: white;
+    font-family: font-family: 'Sacramento', cursive;
 }
-input{
-    border:1px solid #b0b0b0;
-    padding:3px 5px 4px;
-    color:#979797;
-    width:190px;
+
+.plan__list {
+    width: 80%;
+    margin: auto;
+    text-align: center;
 }
-address,caption,cite,code,dfn,th,var {
-    font-style:normal;
-    font-weight:normal;
+
+.plan {
+    background-color: aliceblue
+    text-align: center;
+    padding: 16px;
+    margin: 8px;
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
 }
-ol,ul {
-    list-style:none;
+
+.plan--highlighted {
+    background-color: green;
+    color: honeydew;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
-caption,th {
-    text-align:left;
+
+.plan__annotation{
+    background: white;
+    color: teal;
+    padding:  8px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 8px; 
 }
-h1,h2,h3,h4,h5,h6 {
-    font-size:100%;
-    font-weight:normal;
+
+.plan__title {
+    color: teal;
 }
-q:before,q:after {
-    content:'';
+.plan__price {
+    color: rgb(255, 255, 255);
 }
-abbr,acronym { border: 3px;
+
+.plan--highlighted .plan__price {
+    color: rgb(1, 17, 17);
 }
+
+.plan__features {
+    list-style: none;
+    marging:0;
+    padding: 0%;
+
+}
+.plan__feature {
+    marging: 8px 0;
+
+}
+
+#key-features {
+    background: orange;
+    margin-top: 80px;
+    padding: 16px;
+}
+
+#key-features .section-title {
+    color: white;
+    margin: 32px;
+
+}
+
+.key-feature__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.key-feature {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+.key-feature__image {
+    background: #ffcede;
+    width: 128px;
+    height: 128px;
+    border: 2px solid #424242;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.key-feature__description {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+/* h1 {
+    font-family: sans-serif;
+} */
 
